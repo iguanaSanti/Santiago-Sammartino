@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Alvarez Sammartino</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#mi">Sobre mí</a></li>
+                <li><a href="#porfo">Portfolio</a></li>
+                <li><a href="#cv">Curr&iacute;culum</a></li>
+            </ul>
+        </nav>
+        <div>&nbsp;</div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Soy <span>Santiago &Aacute;lvarez</span></h1>
+            <p>Desarrollador Web</p>
+            <button><a href="#contacto">Contacto</a></button>
+        </div>
+        <div class="hero-image">
+            <img src="images/yo.jpg" alt="Ivan Dan">
+        </div>
+        <div class="social-links">
+            <div id="barrita">&nbsp;</div>
+            <a href="https://www.linkedin.com/in/santiago-%C3%A1lvarez-sammartino-8326b9314/"><img
+                    src="images/linke.png" alt="LinkedIn"></a>
+            <a href="https://api.whatsapp.com/send/?phone=34684641353"><img src="images/wha.png" alt="WhatsApp"></a>
+        </div>
+    </section>
+    <section class="about" id="mi">
+        <h2>Sobre m&iacute;</h2>
+        <p>Hola, mi nombre es Santiago &Aacute;lvarez. Tengo 25 a&ntilde;os y me he formado como <span>desarrollador
+                web</span>
+            en un
+            programa de empleo del <span>Ayuntamiento de Gij&oacute;n</span> de m&aacute;s de 1 a&ntilde;o de
+            duraci&oacute;n,
+            donde he
+            realizado una serie de proyectos para la entidad y he obtenido 2 m&oacute;dulos formativos relacionados con
+            el
+            desarrollo web. Actualmete busco <span>continuar ampliando mi
+                experiencia</span> en el sector, abierto a aprender nuevas t&eacute;cnicas de programaci&oacute;n.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Tecnolog&iacute;as</h2>
+        <div class="skills-grid">
+            <div class="skill-item"><img src="images/html.png" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="skill-item"><img src="images/js.png" alt="JS">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-item"><img src="images/css.png" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="skill-item"><img src="images/wp.png" alt="WP">
+                <p>WordPress</p>
+            </div>
+            <div class="skill-item"><img src="images/prestashop.png" alt="Prestashop">
+                <p>Prestashop</p>
+            </div>
+            <div class="skill-item"><img src="images/php.png" alt="PhP">
+                <p>PhP</p>
+            </div>
+            <div class="skill-item"><img src="images/mysql.png" alt="MySQL">
+                <p>MySQL</p>
+            </div>
+        </div>
+    </section>
+    <section class="porfo" id="porfo">
+        <h2>Portfolio</h2>
+        <div class="porfo-grid">
+            <div class="porfo-item">
+                <h3>Playas Gij&oacute;n</h3><img class="thumbnail" src="images/playa.png" alt="Playas Gijon" id="playa">
+            </div>
+
+            <div class="porfo-item thumbnail">
+                <h3>Puntos de Inter&eacute;s</h3><img class="thumbnail" src="images/pint.png" alt="P. interes"
+                    id="pint">
+            </div>
+
+
+            <div class="porfo-item thumbnail">
+                <h3>Tarjetas Ciudadanas</h3><img class="thumbnail" src="images/tarje.png" alt="Tarjetas ciudadanas"
+                    id="tarje">
+            </div>
+
+
+            <div class="porfo-item thumbnail">
+                <h3>Escuela Taller</h3><img class="thumbnail" src="images/et.png" alt="escuela taller" id="et">
+            </div>
+
+
+            <div id="ov-playa" class="overlay">
+                <img src="images/play.png" alt="" id="fullImagePlaya" class="fullImage">
+                <div class="infoPorf">
+                    <p>Aplicación web desarrollada para mostrar estados medioambientales y servicios de las playas
+                        de
+                        Gij&oacute;n. Toda la informaci&oacute;n es obtenida en timpo real de los datos abiertos del
+                        Ayuntamiento de
+                        Gij&oacute;n y del Puerto de Gijón. Combinando AJAX y JavaScript se obtiene los datos en
+                        formato
+                        JSON y se inyectan en el HTML.</p>
+                </div>
+            </div>
+
+            <div id="ov-pint" class="overlay">
+                <img src="images/pint.png" alt="" id="imaGranPin" class="fullImage">
+                <div class="infoPorf">
+                    <p>Esta página se creó con datos abiertos de Gijón para facilitar información
+                        relativa a
+                        alojamientos, monumentos y museos a traves de llamadas de Ajax y con la Api Leaflet para
+                        tener un mapa interactivo. Además la página cuenta con una sección de tarjetas cargada
+                        automáticamente en base de la cantidad de elementos que se dispongan en los Datos Abiertos,
+                        la
+                        cual ofrece descripción y ubicación que puede ser marcada en el mapa.</p>
+                </div>
+                <div class="cinta">
+                    <img src="images/pint.png" alt="" id="fullImage" class="fullImage imaPecPin">
+                    <img src="images/pint2.png" alt="" id="fullImage" class="fullImage imaPecPin">
+                </div>
+            </div>
+
+            <div id="ov-tarje" class="overlay">
+                <img src="images/tarje.png" alt="" id="imaGranTar" class="fullImage">
+                <div class="infoPorf">
+                    <p>En esta p&aacute;gina se basa en el mismo funcionamiento que la de Puntos de Inter&eacute;s.
+                        Mediante llamadas de Ajax se obtienen de los JSON del Ayuntamiento de Gij&oacute;n. Aqu&iacute;
+                        se plasman todos los datos, a trav&eacute;s de un gr&aacute;fico SVG, relativos de las tarjetas
+                        ciudadanas registradas desde el 2001 hasta
+                        el &uacute;ltimo a&ntilde;o, pudiendo selecionar el a&ntilde;o y diferenciando las tarjetas
+                        f&iacute;sicas y jur&iacute;dicas.</p>
+                </div>
+                <div class="cinta">
+                    <img src="images/tarje.png" alt="" id="fullImage" class="fullImage imaPecTar">
+                    <img src="images/tarje2.png" alt="" id="fullImage" class="fullImage imaPecTar">
+                </div>
+            </div>
+
+            <div id="ov-et" class="overlay">
+                <img src="images/et.png" alt="" id="imaGranEt" class="fullImage">
+                <div class="infoPorf">
+                    <p>Este sitio fue el primer proyecto que se elabor&oacute; en el proyecto formartivo Escuela Taller
+                        en el cual se desarrollaron las primeras habilidades de programaci&oacute;n y
+                        coordinaci&oacute;n entre equipos utilizando principalmente HTML, JavaScript y CSS. En el sitio
+                        se crearon men&uacute;s desplegables, carruseles, calendarios y bloques de noticias entre otros,
+                        todo ello relacionado con el proyecto, dot&aacute;ndolo de visibilidad como muestra de los
+                        trabajos que se llevan a cabo.</p>
+                </div>
+                <div class="cinta">
+                    <img src="images/et.png" alt="" id="fullImage" class="fullImage imaPecEt">
+                    <img src="images/et2.png" alt="" id="fullImage" class="fullImage imaPecEt">
+                    <img src="images/et3.png" alt="" id="fullImage" class="fullImage imaPecEt">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="formacion">
+        <div id="info-form">
+            <h2 id="formacion-tit">Formaci&oacute;n</h2>
+            <div class="descrips">
+                <strong>DESARROLLO DE APLICACIONES CON TECNOLOG&Iacute;AS WEB </strong>
+                <p class="descri-form">El Certificado Profesional IFCD0210 ense&ntilde;a los fundamentos de
+                    AngularJS,
+                    MySQL y PHP, cubriendo desde el desarrollo de aplicaciones web din&aacute;micas hasta la
+                    gesti&oacute;n
+                    de
+                    bases de datos y la l&oacute;gica del servidor, preparando a los estudiantes para roles en
+                    desarrollo
+                    web mediante clases te&oacute;ricas, pr&aacute;cticas y proyectos aplicados. </p>
+                <br>
+                <strong>CONFECCI&Oacute;N Y PUBLICACI&Oacute;N DE P&Aacute;GINAS WEB</strong>
+                <p class="descri-form">El Certificado Profesional IFCD 0110 ense&ntilde;a los fundamentos de
+                    HTML,
+                    CSS y
+                    JavaScript, abarcando desde la estructura y el dise&ntilde;o de p&aacute;ginas web hasta la
+                    implementaci&oacute;n de
+                    funcionalidades interactivas, preparando a los estudiantes para roles en desarrollo web
+                    mediante
+                    clases te&oacute;ricas, pr&aacute;cticas y proyectos aplicados.</p>
+                <br>
+                <strong>ADMINISTRACI&Oacute;N AVANZADA EN WORDPRESS</strong>
+                <p class="descri-form">100 horas certificadas por Bilib de formaci&oacute;n en la
+                    administraci&oacute;n del cmd
+                    WordPress para la creaci&oacute;n de p&aacute;ginas web.</p>
+                <br>
+                <strong>CREACI&Oacute;N Y ADMINISTRACI&Oacute;N EN PRESTASHOP</strong>
+                <p class="descri-form">80 horas certificadas por Bilib de formaci&oacute;n en la
+                    administraci&oacute;n del cmd
+                    Prestashop para la creaci&oacute;n de p&aacute;ginas web.</p>
+            </div>
+        </div>
+
+        <figure>
+            <img src="images/CV Programador.png" id="cv" class="thumbnail2">
+        </figure>
+        <div id="overlay" class="overlay">
+            <img src="" alt="Imagen Ampliada" id="fullImage2" class="full-image">
+        </div>
+    </section>
+    <footer id="contacto">
+        <div class="skills-grid contac">
+            <div class="skill-item item-conta"><img src="images/mail.png" alt="">
+                <p>santiagotalvarez17@gmail.com</p>
+            </div>
+            <div class="skill-item item-conta"><img src="images/movil.png" alt="">
+                <p>+34 684 64 13 53</p>
+            </div>
+
+            <div class="skill-item item-conta"><img src="images/ubi.png" alt="">
+                <p>Gij&oacute;n, Asturias</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
