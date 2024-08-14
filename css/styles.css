@@ -282,8 +282,9 @@ h2 {
 
 .cinta {
     height: 300px;
-    width: 90%;
+    width: 70%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -381,6 +382,10 @@ figure {
     .overlay {
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    .cinta {
+        height: 150px;
     }
 
     .cinta img {
