@@ -385,6 +385,15 @@ figure {
 
     .cinta img {
         width: 30%;
+        height: 20%;
+    }
+
+    #fullImagePlaya {
+        margin-right: 0;
+    }
+
+    #ov-playa {
+        justify-content: space-evenly;
     }
 }
 
