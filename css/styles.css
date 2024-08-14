@@ -400,6 +400,11 @@ figure {
     #ov-playa {
         justify-content: space-evenly;
     }
+
+    #fullImage2 {
+    width: 94%;
+    height: auto;
+}
 }
 
 @media (max-width: 768px) {
